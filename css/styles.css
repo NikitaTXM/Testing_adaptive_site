@@ -15,8 +15,8 @@
 /* Оформление */
 
 html {
-  /* 62.5% */
-  font-size: 100%;
+  /* 62.5%  78.125*/
+  font-size: 62.5%;
 }
 
 body {
@@ -237,6 +237,27 @@ a {
 
 @media screen and (min-width: 1024px) {
   .btn {
+    font-size: 1.5rem;
+  }
+}
+
+/* Поле ввода */
+
+.input {
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  color: var(--color-headings);
+  font-size: 2rem;
+  outline: 0;
+  padding: 1.5rem 3.5rem;
+}
+
+::placeholder {
+  color: #cdcbd7;
+}
+
+@media screen and (min-width: 1024px) {
+  .input {
     font-size: 1.5rem;
   }
 }
